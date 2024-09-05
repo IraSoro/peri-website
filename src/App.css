@@ -48,3 +48,46 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+.description-and-image {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description {
+  flex: 1;
+  font-size: 14px;
+  padding: 20px 0 20px 50px;
+}
+
+.description p {
+  font-size: 18px;
+}
+
+.image-box {
+  flex-shrink: 0;
+}
+
+.image-box img {
+  width: auto;
+  height: 600px;
+  object-fit: cover;
+  padding: 50px 70px 0 0;
+}
+
+@media (max-width: 600px) {
+  .description-and-image {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 12px;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .image-box img {
+    height: 500px;
+    padding: 0;
+  }
+}
