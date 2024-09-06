@@ -1,5 +1,7 @@
 import Phone from "./assets/home.jpg";
+import GooglePlayIcon from "./assets/GooglePlayIcon.png";
 import "./App.css";
+import "./styles/Buttons.css"
 
 const Header = () => {
   return (
@@ -19,6 +21,18 @@ const Header = () => {
   );
 };
 
+const GooglePlayButton = () => {
+  return (
+    <a className="google-play-btn" href="#">
+      <img src={GooglePlayIcon} alt="Google Play Icon" />
+      <div className="google-play-text">
+        <span className="small-text">GET IT ON</span>
+        <span className="big-text">Google Play</span>
+      </div>
+    </a>
+  );
+};
+
 function App() {
   return (
     <>
@@ -29,6 +43,7 @@ function App() {
             <div className="description">
               <h1>Description</h1>
               <p>Here is additional text or information about something.</p>
+              <GooglePlayButton />
             </div>
             <div className="image-box">
               <img src={Phone} alt="Image description" />
