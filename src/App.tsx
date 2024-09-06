@@ -1,3 +1,5 @@
+import { useState, useEffect } from "react";
+
 import Phone from "./assets/home.jpg";
 import GooglePlayIcon from "./assets/GooglePlayIcon.png";
 import GitHubIcon from "./assets/github-logo.png";
@@ -6,8 +8,26 @@ import "./App.css";
 import "./styles/Buttons.css";
 
 const Header = () => {
+  const [underline, setUnderline] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 10) {
+        setUnderline(true);
+      } else {
+        setUnderline(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <header className="header">
+    <header className={`header ${underline ? "header-underline" : ""}`}>
       <div className="logo">
         <img src="/favicon.ico" alt="Logo" />
         <span className="logo-text">Peri</span>

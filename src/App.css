@@ -25,13 +25,19 @@
   justify-content: center;
   align-items: center;
   padding: 10px 0;
-  background-color: transparent;
+  background-color: #fff;
 
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
+
+  transition: border-bottom 0.3s ease;
+}
+
+.header-underline {
+  border-bottom: 1px solid #a9a9a9;
 }
 
 .logo {
@@ -80,6 +86,7 @@
 @media (max-width: 600px) {
   .centered-box {
     margin-top: 10px;
+    height: 600px;
   }
 
   .description-and-image {
