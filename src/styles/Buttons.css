@@ -1,4 +1,16 @@
-.google-play-btn {
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+@media (max-width: 600px) {
+  .button-container {
+    justify-content: center;
+  }
+}
+
+.btn {
   display: inline-flex;
   align-items: center;
   background-color: #fff;
@@ -8,26 +20,28 @@
   font-family: Arial, sans-serif;
   cursor: pointer;
   text-decoration: none;
+
+  min-width: 160px;
 }
 
-.google-play-btn img {
+.btn img {
   width: 40px;
   height: 40px;
   margin-right: 10px;
 }
 
-.google-play-text {
+.btn-text {
   display: flex;
   flex-direction: column;
   text-align: left;
 }
 
-.google-play-text .small-text {
+.btn-text .small-text {
   font-size: 12px;
   color: #666;
 }
 
-.google-play-text .big-text {
+.btn-text .big-text {
   font-size: 18px;
   color: #000;
   font-weight: bold;

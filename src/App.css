@@ -31,23 +31,6 @@
   height: 50px;
 }
 
-.github-button {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 30px;
-  text-decoration: none;
-  font-size: 16px;
-  transition: box-shadow 0.3s ease;
-}
-
-.github-button:hover,
-.github-button:active {
-  color: #fff;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
 .description-and-image {
   display: flex;
   justify-content: space-between;
