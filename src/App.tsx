@@ -10,6 +10,7 @@ const Header = () => {
     <header className="header">
       <div className="logo">
         <img src="/favicon.ico" alt="Logo" />
+        <span className="logo-text">Peri</span>
       </div>
     </header>
   );

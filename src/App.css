@@ -34,8 +34,20 @@
   z-index: 1000;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
 .logo img {
   height: 50px;
+}
+
+.logo-text {
+  font-size: 30px;
+  color: #4c3b9d;
+  font-weight: 600;
 }
 
 .description-and-image {
