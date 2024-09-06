@@ -1,5 +1,6 @@
 #root {
   margin: 0 auto;
+  padding-top: 60px;
 }
 
 .container {
@@ -12,7 +13,7 @@
 }
 
 .centered-box {
-  margin-top: 5vh;
+  margin-top: 30px;
   width: 90vw;
   height: 450px;
   background-color: #dedede;
@@ -21,10 +22,16 @@
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 10px 0;
   background-color: transparent;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .logo img {
@@ -59,6 +66,10 @@
 }
 
 @media (max-width: 600px) {
+  .centered-box {
+    margin-top: 10px;
+  }
+
   .description-and-image {
     flex-direction: column;
     text-align: center;
