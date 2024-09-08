@@ -70,13 +70,16 @@ function App() {
             <div className="description">
               <h1>The period tracker app</h1>
               <p>
-                <span>The app will help you track your menstrual cycle.</span>
+                The app will help you&#32;
+                <span className="highlighted-text">
+                  track your menstrual cycle.
+                </span>
                 &#32;The app displays info about the current cycle, ovulation,
                 cycle phases, predicts the dates of the next cycles and saves
                 the history of previous ones.
                 <br />
-                All data is stored on your device, ensuring <span>privacy</span>
-                .
+                All data is stored on your device, ensuring&#32;
+                <span className="highlighted-text">privacy</span>.
               </p>
               <div className="button-container">
                 <GooglePlayButton />

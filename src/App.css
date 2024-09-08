@@ -79,6 +79,11 @@
   margin-bottom: 30px;
 }
 
+.highlighted-text{
+  color: #4c3b9d;
+  font-weight: 600;
+}
+
 .image-box {
   flex-shrink: 0;
 }
