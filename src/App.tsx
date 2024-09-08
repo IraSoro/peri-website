@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import Phone from "./assets/home.jpg";
+import Phone from "./assets/phone.png";
 import GooglePlayIcon from "./assets/GooglePlayIcon.png";
 import GitHubIcon from "./assets/github-logo.png";
 
