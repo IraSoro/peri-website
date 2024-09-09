@@ -2,7 +2,7 @@
     <img src="./public/favicon.ico" alt="Logo" width="80" height="80">
   <h3 align="center">Peri – Landing Page</h3>
     <p align="center">
-    <a href="https://irasoro.github.io/peri-landing/">View Website</a>
+    <a href="https://irasoro.github.io/peri-website/">View Website</a>
   </p>
 </p>
 
@@ -13,7 +13,7 @@ This is the landing page for the [**Peri**](https://github.com/IraSoro/peri). Th
 ### Links
 
 - [Link to the Peri project](https://github.com/IraSoro/peri)
-- [Landing page](https://irasoro.github.io/peri-landing/)
+- [Landing page](https://irasoro.github.io/peri-website/)
 
 ### Usage
 
