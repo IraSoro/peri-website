@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import Phone from "./assets/phone.png";
 import GooglePlayIcon from "./assets/GooglePlayIcon.png";
 import GitHubIcon from "./assets/github-logo.png";
+import Logo from "./assets/favicon.ico";
 
 import { LINKS } from "./constants";
 
@@ -31,7 +32,7 @@ const Header = () => {
   return (
     <header className={`header ${underline ? "header-underline" : ""}`}>
       <div className="logo">
-        <img src="/favicon.ico" alt="Logo" />
+        <img src={Logo} alt="Logo" />
         <span className="logo-text">Peri</span>
       </div>
     </header>
