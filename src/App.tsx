@@ -4,6 +4,8 @@ import Phone from "./assets/phone.png";
 import GooglePlayIcon from "./assets/GooglePlayIcon.png";
 import GitHubIcon from "./assets/github-logo.png";
 
+import { LINKS } from "./constants";
+
 import "./App.css";
 import "./styles/Buttons.css";
 
@@ -50,7 +52,7 @@ const GooglePlayButton = () => {
 
 const GitHubButton = () => {
   return (
-    <a className="btn" href="#">
+    <a className="btn" href={LINKS.GITHUB_REPO}>
       <img src={GitHubIcon} alt="GitHub Icon" />
       <div className="btn-text">
         <span className="small-text">GO TO</span>
