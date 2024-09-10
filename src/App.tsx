@@ -35,7 +35,16 @@ const Header = () => {
         <img src={Logo} alt="Logo" />
         <span className="logo-text">Peri</span>
       </div>
+      <DemoButton />
     </header>
+  );
+};
+
+const DemoButton = () => {
+  return (
+    <a href={LINKS.DEMO} className="demo-btn">
+      View Demo
+    </a>
   );
 };
 

@@ -50,3 +50,32 @@
   color: #000;
   font-weight: bold;
 }
+
+.demo-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  background-color: #4c3b9d;
+  color: #fff;
+  border-radius: 15px;
+  padding: 0 15px;
+  text-decoration: none;
+  font-size: 18px;
+
+  transition: box-shadow 0.3s ease;
+}
+
+.demo-btn:hover {
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 600px) {
+  .button-container {
+    justify-content: center;
+  }
+  .demo-btn {
+    margin-right: 15px;
+  }
+}
