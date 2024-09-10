@@ -50,7 +50,7 @@ const DemoButton = () => {
 
 const GooglePlayButton = () => {
   return (
-    <a className="btn" href="#">
+    <a className="btn" href={LINKS.GOOGLE_PLAY}>
       <img src={GooglePlayIcon} alt="Google Play Icon" />
       <div className="btn-text">
         <span className="small-text">GET IT ON</span>
