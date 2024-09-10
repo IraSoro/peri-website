@@ -25,14 +25,16 @@
 
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 10px 0;
   background-color: #eae7ff;
 
   position: fixed;
   top: 0;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 1000px;
   width: 100%;
   z-index: 1000;
 
@@ -120,5 +122,9 @@
   .image-box img {
     height: 500px;
     padding: 0;
+  }
+
+  .logo {
+    margin-left: 15px;
   }
 }
