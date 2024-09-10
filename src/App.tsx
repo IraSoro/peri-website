@@ -42,7 +42,12 @@ const Header = () => {
 
 const DemoButton = () => {
   return (
-    <a href={LINKS.DEMO} className="demo-btn">
+    <a
+      href={LINKS.DEMO}
+      className="demo-btn"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       View Demo
     </a>
   );
@@ -50,7 +55,12 @@ const DemoButton = () => {
 
 const GooglePlayButton = () => {
   return (
-    <a className="btn" href={LINKS.GOOGLE_PLAY}>
+    <a
+      className="btn"
+      href={LINKS.GOOGLE_PLAY}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <img src={GooglePlayIcon} alt="Google Play Icon" />
       <div className="btn-text">
         <span className="small-text">GET IT ON</span>
@@ -62,7 +72,12 @@ const GooglePlayButton = () => {
 
 const GitHubButton = () => {
   return (
-    <a className="btn" href={LINKS.GITHUB_REPO}>
+    <a
+      className="btn"
+      href={LINKS.GITHUB_REPO}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <img src={GitHubIcon} alt="GitHub Icon" />
       <div className="btn-text">
         <span className="small-text">GO TO</span>
