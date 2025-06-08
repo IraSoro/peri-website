@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 
 import Phone from "./assets/phone.png";
-import GooglePlayIcon from "./assets/GooglePlayIcon.png";
 import GitHubIcon from "./assets/github-logo.png";
 import Logo from "./assets/favicon.ico";
 
@@ -53,22 +52,6 @@ const DemoButton = () => {
   );
 };
 
-const GooglePlayButton = () => {
-  return (
-    <a
-      className="btn"
-      href={LINKS.GOOGLE_PLAY}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <img src={GooglePlayIcon} alt="Google Play Icon" />
-      <div className="btn-text">
-        <span className="small-text">GET IT ON</span>
-        <span className="big-text">Google Play</span>
-      </div>
-    </a>
-  );
-};
 
 const GitHubButton = () => {
   return (
@@ -109,7 +92,6 @@ function App() {
                 <span className="highlighted-text">privacy</span>.
               </p>
               <div className="button-container">
-                <GooglePlayButton />
                 <GitHubButton />
               </div>
             </div>
