@@ -19,7 +19,7 @@ This is the landing page for the [**Peri**](https://github.com/IraSoro/peri). Th
 
 Here’s a preview of our landing page:
 
-![AppName Landing Page Screenshot](https://zurmpzdmaurjkfnkcqaw.supabase.co/storage/v1/object/public/peri/landing.jpg?t=2024-09-09T19%3A01%3A53.940Z)
+![Peri Website Page Screenshot](https://github.com/IraSoro/peri-storage/blob/main/screenshots/website.jpg?raw=true)
 
 ### Technologies used
 
