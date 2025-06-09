@@ -56,9 +56,10 @@
   justify-content: center;
   align-items: center;
   height: 45px;
-  background-color: #4c3b9d;
-  color: #fff;
+  background-color: #eae7ff;
+  color: #4c3b9d;
   border-radius: 15px;
+  border: 1px solid #c0b6f2;
   padding: 0 15px;
   text-decoration: none;
   font-size: 18px;
@@ -67,7 +68,7 @@
 }
 
 .demo-btn:hover {
-  color: #fff;
+  color: #4c3b9d;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 

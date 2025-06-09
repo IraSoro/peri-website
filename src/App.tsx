@@ -2,9 +2,10 @@ import { useState, useEffect } from "react";
 
 import Phone from "./assets/phone.png";
 import GitHubIcon from "./assets/github-logo.png";
+import Android from "./assets/android.png";
 import Logo from "./assets/favicon.ico";
 
-import { LINKS } from "./constants";
+import { LINKS } from "./links";
 
 import "./App.css";
 import "./styles/Buttons.css";
@@ -42,7 +43,7 @@ const Header = () => {
 const DemoButton = () => {
   return (
     <a
-      href={LINKS.DEMO}
+    href={LINKS.DEMO}
       className="demo-btn"
       target="_blank"
       rel="noopener noreferrer"
@@ -70,6 +71,23 @@ const GitHubButton = () => {
   );
 };
 
+const DownloadAndroidButton = () => {
+  return (
+    <a
+      className="btn"
+      href={LINKS.ANDROID}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img src={Android} alt="Download Android" />
+      <div className="btn-text">
+        <span className="small-text">DOWNLOAD FOR</span>
+        <span className="big-text">Android</span>
+      </div>
+    </a>
+  );
+};
+
 function App() {
   return (
     <>
@@ -92,6 +110,7 @@ function App() {
                 <span className="highlighted-text">privacy</span>.
               </p>
               <div className="button-container">
+                <DownloadAndroidButton />
                 <GitHubButton />
               </div>
             </div>
