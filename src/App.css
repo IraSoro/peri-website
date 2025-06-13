@@ -5,6 +5,12 @@
   background-color: #eae7ff;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -97,6 +103,23 @@
   padding: 50px 70px 0 0;
 }
 
+.support-info {
+  text-align: center;
+  color: #808080;
+  margin-top: auto;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.support-link {
+  color: #7b69d0;
+  transition: color 0.3s ease;
+}
+
+.support-link:hover {
+  color: #4c3b9d;
+}
+
 @media (max-width: 600px) {
   .centered-box {
     margin-top: 10px;
@@ -126,5 +149,10 @@
 
   .logo {
     margin-left: 15px;
+  }
+
+  .support-info {
+    margin-top: 250px;
+    padding: 0 15px 10px;
   }
 }
